@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
-                padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 30),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
                 ),
@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
-                padding: const EdgeInsets.symmetric(horizontal: 46, vertical: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 66, vertical: 30),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
                 ),
