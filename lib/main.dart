@@ -67,7 +67,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AddDataPage(''),
+                    builder: (context) => const AddDataPage(),
                   ),
                 ).then((result) {
                   // Handle hasil dari halaman tambah data

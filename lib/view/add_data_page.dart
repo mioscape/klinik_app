@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:klinik_app/model/model.dart';
 
 class AddDataPage extends StatefulWidget {
-  final String pageTitle;
 
-  const AddDataPage(this.pageTitle, {super.key});
+  const AddDataPage({super.key});
 
   @override
   // ignore: library_private_types_in_public_api
@@ -30,7 +29,7 @@ class _AddDataPageState extends State<AddDataPage> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: Text('Tambah Data ${widget.pageTitle}'),
+        title: const Text('Tambah Data'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
